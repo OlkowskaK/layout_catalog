@@ -12,7 +12,6 @@
 /* #region Body */
 body {
   margin: 0 auto;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,10 +21,10 @@ body {
 /* #endregion */
 
 /* #region Image Component */
-.img-imac img {
+.card__img {
   width: 160px;
   height: 134px;
-  margin: 32px 19px 38px;
+  margin: 32px 19px 40px;
   box-sizing: border-box;
 }
 
