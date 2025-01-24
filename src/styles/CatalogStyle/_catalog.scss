@@ -1,7 +1,10 @@
 /* #region Catalog */
 main {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
   gap: 46px 48px;
   padding: 50px 40px;
   grid-auto-rows: auto;
@@ -9,17 +12,17 @@ main {
 
   /* Od 488px, 2 kolumny */
   @media (min-width: 488px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 200px);
   }
 
   /* Od 768px, 3 kolumny */
   @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px);
   }
 
   /* Od 1024px, 4 kolumny */
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 200px);
   }
 }
 
