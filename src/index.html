@@ -17,27 +17,15 @@
     />
     <link
       rel="stylesheet"
-      href="styles/index.scss"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/HeaderStyle/_header.scss"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/CardStyle/main.scss"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/CatalogStyle/_catalog.scss"
+      href="./styles/mainstyle.scss"
     />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <a
         href="#"
-        class="logo"
+        class="header__logo"
       >
         <img
           src="./images/logo.png"
@@ -116,7 +104,7 @@
       </nav>
     </header>
     <!-- Sekcja główna -->
-    <main>
+    <main class="main">
       <!-- pierwsza karta -->
       <div
         class="card"
@@ -134,34 +122,6 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -169,13 +129,7 @@
             <div class="stars__star"></div>
             <div class="stars__star"></div>
           </div>
-          <div class="stars stars--5">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
+
           <div class="card__star-reviews">Reviews: 5</div>
         </div>
 
@@ -187,6 +141,7 @@
         <button
           type="button"
           data-qa="card-hover"
+          class="card__button"
         >
           BUY
         </button>
@@ -205,42 +160,7 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--5">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -255,7 +175,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--trzecia karta-->
       <div class="card">
@@ -271,42 +196,7 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--5">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -321,7 +211,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--czwarta karta-->
       <div class="card">
@@ -337,34 +232,6 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -372,13 +239,7 @@
             <div class="stars__star"></div>
             <div class="stars__star"></div>
           </div>
-          <div class="stars stars--5">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
+
           <div class="card__star-reviews">Reviews: 5</div>
         </div>
 
@@ -387,7 +248,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--piąta karta-->
       <div class="card">
@@ -403,42 +269,7 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--5">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -453,7 +284,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--szosta karta-->
       <div class="card">
@@ -469,42 +305,7 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--5">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -519,7 +320,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--siodma karta-->
       <div class="card">
@@ -535,34 +341,6 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -570,13 +348,7 @@
             <div class="stars__star"></div>
             <div class="stars__star"></div>
           </div>
-          <div class="stars stars--5">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
+
           <div class="card__star-reviews">Reviews: 5</div>
         </div>
 
@@ -585,7 +357,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
       <!--osma karta-->
       <div class="card">
@@ -601,34 +378,6 @@
         <div class="card__code">Product code: 195434</div>
 
         <div class="card__star">
-          <div class="stars stars--0">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--1">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--2">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="stars stars--3">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
           <div class="stars stars--4">
             <div class="stars__star"></div>
             <div class="stars__star"></div>
@@ -636,13 +385,7 @@
             <div class="stars__star"></div>
             <div class="stars__star"></div>
           </div>
-          <div class="stars stars--5">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
+
           <div class="card__star-reviews">Reviews: 5</div>
         </div>
 
@@ -651,7 +394,12 @@
           <div class="card__price-value">&#36;2,199</div>
         </div>
 
-        <button type="button">BUY</button>
+        <button
+          type="button"
+          class="card__button"
+        >
+          BUY
+        </button>
       </div>
     </main>
 

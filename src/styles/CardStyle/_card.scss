@@ -1,6 +1,5 @@
 @use './variables';
 
-/* #region Card Component */
 .card {
   width: 200px;
   height: 408px;
@@ -15,7 +14,7 @@
     box-shadow 300ms ease;
 
   &:hover {
-    transform: scale(1.2); /* Zwiększenie karty o 20% */
+    transform: scale(1.2);
   }
 
   &__title {
@@ -34,7 +33,7 @@
     transition: color 300ms ease;
 
     &:hover {
-      color: #34568b; /* Zmiana koloru tytułu na hover */
+      color: #34568b;
     }
   }
 
@@ -95,10 +94,7 @@
   }
 }
 
-/* #endregion */
-
-/* #region Button Component */
-button {
+.card__button {
   width: 166px;
   height: 40px;
   background-color: variables.$third;
@@ -128,5 +124,3 @@ button {
     border: 1px solid variables.$third;
   }
 }
-
-/* #endregion */
